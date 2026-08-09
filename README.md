@@ -50,6 +50,7 @@ func main() {
 * `Byte()`
 * `Rune()`
 * `Int8()`
+* `Int16()`
 
 ### Options
 
