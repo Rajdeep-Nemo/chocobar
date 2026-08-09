@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// Parses the string value
+// Parses the string value and returns a rune
 func parseRune(s string) (rune, error) {
 	r := []rune(s)
 	if len(r) != 1 {
