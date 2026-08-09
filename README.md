@@ -51,6 +51,7 @@ func main() {
 * `Rune()`
 * `Int8()`
 * `Int16()`
+* `Int32()`
 
 ### Options
 
