@@ -4,7 +4,7 @@
 
 The package provides typed input functions and a consistent option-based API for prompts, validation, and retry behavior.
 
-> **Status:** Work in progress. The API is not yet stable.
+
 
 ## Installation
 
