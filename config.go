@@ -17,7 +17,7 @@ func defaultConfig() config {
 	}
 }
 
-// Prompt sets the text printed before waiting for input.
+// Prompt sets the text displayed before reading input.
 func Prompt(inputPrompt string) option {
 	return func(c *config) {
 		c.prompt = inputPrompt
