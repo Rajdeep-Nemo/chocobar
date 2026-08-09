@@ -24,8 +24,8 @@ func Prompt(inputPrompt string) option {
 	}
 }
 
-// MaxAttempts limits the number of invalid input attempts.
-// A value of 0 retries indefinitely.
+// MaxAttempt limits the number of input attempts.
+// A value of 0 allows unlimited attempts.
 func MaxAttempt(count int) option {
 	return func(c *config) {
 		c.maxAttempt = count
