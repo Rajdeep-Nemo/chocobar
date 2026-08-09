@@ -17,15 +17,15 @@ func defaultConfig() config {
 	}
 }
 
-// Prompt sets the text printed before waiting for input.
+// Prompt sets the text displayed before reading input.
 func Prompt(inputPrompt string) option {
 	return func(c *config) {
 		c.prompt = inputPrompt
 	}
 }
 
-// MaxAttempts limits the number of invalid input attempts.
-// A value of 0 retries indefinitely.
+// MaxAttempt limits the number of input attempts.
+// A value of 0 allows unlimited attempts.
 func MaxAttempt(count int) option {
 	return func(c *config) {
 		c.maxAttempt = count

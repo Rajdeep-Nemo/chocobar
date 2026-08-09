@@ -12,7 +12,7 @@ func parseByte(s string) (byte, error) {
 	return s[0], nil
 }
 
-// Read from the input source and returns a `byte` value
+// Byte reads a single ASCII character from the input source and returns it as a byte.
 func Byte(opts ...option) (byte, error) {
 	return input(parseByte, opts...)
 }

@@ -13,7 +13,7 @@ func parseInt32(s string) (int32, error) {
 	return int32(val), nil
 }
 
-// Reads an integer from the input source and returns as `int32`
+// Int32 reads an integer from the input source and returns it as an int32.
 func Int32(opts ...option) (int32, error) {
 	return input(parseInt32, opts...)
 }

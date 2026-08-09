@@ -13,7 +13,7 @@ func parseInt64(s string) (int64, error) {
 	return int64(val), nil
 }
 
-// Reads an integer from the input source and returns as `int64`
+// Int64 reads an integer from the input source and returns it as an int64.
 func Int64(opts ...option) (int64, error) {
 	return input(parseInt64, opts...)
 }

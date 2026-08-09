@@ -13,7 +13,7 @@ func parseRune(s string) (rune, error) {
 	return r[0], nil
 }
 
-// Read from the input source and returns a unicode code point
+// Rune reads a Unicode code point from the input source.
 func Rune(opts ...option) (rune, error) {
 	return input(parseRune, opts...)
 }
