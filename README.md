@@ -49,6 +49,7 @@ func main() {
 * `String()`
 * `Byte()`
 * `Rune()`
+* `Int8()`
 
 ### Options
 
