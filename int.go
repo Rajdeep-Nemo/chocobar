@@ -4,7 +4,7 @@ import (
 	"strconv"
 )
 
-// Reads an integer from the input source and returns as `int`
+// Int reads an integer from the input source and returns it as an int.
 func Int(opts ...option) (int, error) {
 	return input(strconv.Atoi, opts...)
 }

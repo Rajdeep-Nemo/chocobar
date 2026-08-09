@@ -13,7 +13,7 @@ func parseInt8(s string) (int8, error) {
 	return int8(val), nil
 }
 
-// Reads an integer from the input source and returns as `int8`
+// Int8 reads an integer from the input source and returns it as an int8.
 func Int8(opts ...option) (int8, error) {
 	return input(parseInt8, opts...)
 }

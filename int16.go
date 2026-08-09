@@ -13,7 +13,7 @@ func parseInt16(s string) (int16, error) {
 	return int16(val), nil
 }
 
-// Reads an integer from the input source and returns as `int16`
+// Int16 reads an integer from the input source and returns it as an int16.
 func Int16(opts ...option) (int16, error) {
 	return input(parseInt16, opts...)
 }
