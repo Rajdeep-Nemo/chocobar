@@ -54,6 +54,7 @@ func main() {
 * `Int32()`
 * `Int64()`
 * `Uint()`
+* `Uint8()`
 
 ### Options
 
