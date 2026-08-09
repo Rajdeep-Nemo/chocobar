@@ -1,5 +1,7 @@
 # sleepycat
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/Rajdeep-Nemo/sleepycat.svg)](https://pkg.go.dev/github.com/Rajdeep-Nemo/sleepycat)
+
 `sleepycat` is a Go package for reading user input from the terminal.
 
 The package provides typed input functions and a consistent option-based API for prompts, validation, and retry behavior.
