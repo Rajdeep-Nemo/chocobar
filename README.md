@@ -4,7 +4,7 @@
 
 `sleepycat` is a Go package for reading user input from the terminal.
 
-The package provides typed input functions and a consistent option-based API for prompts, validation, and retry behavior.
+The package provides typed input functions and a consistent option-based API for prompts, and retry behavior.
 
 
 
@@ -45,12 +45,6 @@ func main() {
 ### Input
 
 * `Int()`
-* `Float32()`
-* `Float64()`
-* `Bool()`
-* `String()`
-* `Byte()`
-* `Rune()`
 * `Int8()`
 * `Int16()`
 * `Int32()`
@@ -60,6 +54,12 @@ func main() {
 * `Uint16()`
 * `Uint32()`
 * `Uint64()`
+* `Float32()`
+* `Float64()`
+* `Bool()`
+* `String()`
+* `Byte()`
+* `Rune()`
 
 ### Options
 
