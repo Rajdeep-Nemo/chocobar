@@ -1,11 +1,11 @@
-package sleepycat
+package chocobar
 
 import (
 	"strconv"
 	"strings"
 	"testing"
 
-	"github.com/Rajdeep-Nemo/sleepycat/internal"
+	"github.com/Rajdeep-Nemo/chocobar/internal"
 )
 
 func TestUint_ValidInput(t *testing.T) {

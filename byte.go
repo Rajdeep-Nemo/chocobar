@@ -1,4 +1,4 @@
-package sleepycat
+package chocobar
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 // Parses the string value
 func parseByte(s string) (byte, error) {
 	if len(s) != 1 {
-		return 0, fmt.Errorf("sleepycat: parsing %q: expected a single ASCII character", s)
+		return 0, fmt.Errorf("chocobar: parsing %q: expected a single ASCII character", s)
 	}
 	return s[0], nil
 }

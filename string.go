@@ -1,4 +1,4 @@
-package sleepycat
+package chocobar
 
 import (
 	"strings"

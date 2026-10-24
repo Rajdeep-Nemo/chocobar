@@ -1,10 +1,10 @@
-package sleepycat
+package chocobar
 
 import (
 	"strings"
 	"testing"
 
-	"github.com/Rajdeep-Nemo/sleepycat/internal"
+	"github.com/Rajdeep-Nemo/chocobar/internal"
 )
 
 func TestBool_ValidInput_True(t *testing.T) {

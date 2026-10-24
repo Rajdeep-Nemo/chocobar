@@ -1,4 +1,4 @@
-package sleepycat
+package chocobar
 
 // Holds option values
 type config struct {
