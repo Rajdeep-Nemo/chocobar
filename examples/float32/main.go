@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Rajdeep-Nemo/sleepycat"
+	"github.com/Rajdeep-Nemo/chocobar"
 )
 
 func main() {
-	temp, err := sleepycat.Float32(
-		sleepycat.Prompt("Enter temperature: "),
-		sleepycat.MaxAttempt(3),
+	temp, err := chocobar.Float32(
+		chocobar.Prompt("Enter temperature: "),
+		chocobar.MaxAttempt(3),
 	)
 	if err != nil {
 		log.Fatalf("Failed to read temperature: %v", err)

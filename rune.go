@@ -1,4 +1,4 @@
-package sleepycat
+package chocobar
 
 import (
 	"fmt"
@@ -8,7 +8,7 @@ import (
 func parseRune(s string) (rune, error) {
 	r := []rune(s)
 	if len(r) != 1 {
-		return 0, fmt.Errorf("sleepycat: parsing %q: expected a single character", s)
+		return 0, fmt.Errorf("chocobar: parsing %q: expected a single character", s)
 	}
 	return r[0], nil
 }

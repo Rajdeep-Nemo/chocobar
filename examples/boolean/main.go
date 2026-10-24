@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Rajdeep-Nemo/sleepycat"
+	"github.com/Rajdeep-Nemo/chocobar"
 )
 
 func main() {
-	enabled, err := sleepycat.Bool(
-		sleepycat.Prompt("Enable feature? "),
-		sleepycat.MaxAttempt(3),
+	enabled, err := chocobar.Bool(
+		chocobar.Prompt("Enable feature? "),
+		chocobar.MaxAttempt(3),
 	)
 	if err != nil {
 		log.Fatal(err)

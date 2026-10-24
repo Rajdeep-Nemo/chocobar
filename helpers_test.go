@@ -1,12 +1,12 @@
 // This file contains helper functions used in '*_test.go'
 
-package sleepycat
+package chocobar
 
 import (
 	"io"
 	"testing"
 
-	"github.com/Rajdeep-Nemo/sleepycat/internal"
+	"github.com/Rajdeep-Nemo/chocobar/internal"
 )
 
 type lineReader struct {

@@ -1,9 +1,9 @@
-package sleepycat
+package chocobar
 
 import (
 	"fmt"
 
-	"github.com/Rajdeep-Nemo/sleepycat/internal"
+	"github.com/Rajdeep-Nemo/chocobar/internal"
 )
 
 // Checks for valid option values and take a parsing method,
@@ -16,7 +16,7 @@ func input[T any](parse func(string) (T, error), opts ...option) (T, error) {
 	var zero T
 
 	if cfg.maxAttempt < 0 {
-		return zero, fmt.Errorf("sleepycat: MaxAttempt must be >= 0, got %d", cfg.maxAttempt)
+		return zero, fmt.Errorf("chocobar: MaxAttempt must be >= 0, got %d", cfg.maxAttempt)
 	}
 
 	attempts := 0

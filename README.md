@@ -1,8 +1,8 @@
-# sleepycat
+# chocobar
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/Rajdeep-Nemo/sleepycat.svg)](https://pkg.go.dev/github.com/Rajdeep-Nemo/sleepycat)
+[![Go Reference](https://pkg.go.dev/badge/github.com/Rajdeep-Nemo/chocobar.svg)](https://pkg.go.dev/github.com/Rajdeep-Nemo/chocobar)
 
-`sleepycat` is a Go package for reading user input from the terminal.
+`chocobar` is a Go package for reading user input from the terminal.
 
 The package provides typed input functions and a consistent option-based API for prompts, and retry behavior.
 
@@ -11,7 +11,7 @@ The package provides typed input functions and a consistent option-based API for
 ## Installation
 
 ```bash
-go get github.com/Rajdeep-Nemo/sleepycat
+go get github.com/Rajdeep-Nemo/chocobar
 ```
 
 ## Example
@@ -23,13 +23,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Rajdeep-Nemo/sleepycat"
+	"github.com/Rajdeep-Nemo/chocobar"
 )
 
 func main() {
-	age, err := sleepycat.Int(
-		sleepycat.Prompt("Enter age: "),
-		sleepycat.MaxAttempt(3),
+	age, err := chocobar.Int(
+		chocobar.Prompt("Enter age: "),
+		chocobar.MaxAttempt(3),
 	)
 	if err != nil {
 		fmt.Println(err)
@@ -69,7 +69,7 @@ func main() {
 ## Project Structure
 
 ```text
-sleepycat/
+chocobar/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml              # Continuous integration

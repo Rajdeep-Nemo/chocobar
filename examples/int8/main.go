@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Rajdeep-Nemo/sleepycat"
+	"github.com/Rajdeep-Nemo/chocobar"
 )
 
 func main() {
-	val, err := sleepycat.Int8(
-		sleepycat.Prompt("Enter a number: "),
+	val, err := chocobar.Int8(
+		chocobar.Prompt("Enter a number: "),
 	)
 	if err != nil {
 		fmt.Println(err)
